@@ -19,6 +19,7 @@ Close
 Volume
 
 🚀 Project Workflow (Step-by-Step)
+
 1️⃣ Import Libraries
 
 Essential Python libraries were imported for:
