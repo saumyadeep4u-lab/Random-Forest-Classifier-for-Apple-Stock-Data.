@@ -194,3 +194,29 @@ Matplotlib / Seaborn
 Scikit-learn
 
 Jupyter Notebook
+
+🔑 Key Insights
+
+✅ Feature Engineering Significantly Improves Performance
+
+ Creating derived features such as daily returns, lag prices, and moving averages helped the model capture stock movement patterns more effectively than using raw price data alone.
+
+
+✅ Random Forest Handles Financial Data Well
+
+ The Random Forest algorithm performed strongly because it can model nonlinear relationships and is robust to noise, which is common in stock market data.
+ 
+
+✅ Past Price Behavior Influences Future Movement
+
+ Lag features (previous day prices) showed predictive value, confirming that short-term historical trends contribute to price movement prediction.
+
+
+✅ Model Achieved High Predictive Power
+
+ The high ROC–AUC score indicates the model has a strong ability to distinguish between upward and downward price movements.
+
+
+✅ Cross-Validation Ensures Model Reliability
+
+ Using GridSearchCV with K-Fold Cross Validation reduced overfitting risk and improved confidence in model generalization.
